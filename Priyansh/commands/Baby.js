@@ -156,7 +156,7 @@ try{
 module.exports.handleEvent = async function ({ api, event }) {
 try{
  const body = event.body ? event.body.toLowerCase() : ""
- if(body.startsWith("😺") || body.startsWith("bby") || body.startsWith("Hlw") ||  body.startsWith("Hi")) || body.startsWith("Raihan"){
+ if(body.startsWith("😺") || body.startsWith("bby") || body.startsWith("Hlw") ||  body.startsWith("Hi") || body.startsWith("Raihan")){
  const arr = body.replace(/^\S+\s*/, "")
  if(!arr) {
  await api.sendMessage("hae bolo ami asi😗", event.threadID, (error, info) => {
