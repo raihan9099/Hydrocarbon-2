@@ -8,7 +8,7 @@
     "allowInbox": false,
     "autoClean": true,
     "commandDisabled": [
-        "sim.js"
+        ""
     ],
     "eventDisabled": [
         "join.js"
@@ -16,13 +16,14 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Yours-raihan",
+    "BOTNAME": "Hydrocarbon(⁠◕⁠ᴗ⁠◕⁠✿⁠)",
     "PREFIX": "/",
     "ADMINBOT": [
-        "61550614250757"
+        "61550614250757",
+        "100084228500089"
     ],
     "NDH": [
-        "61550614250757"
+        "100084228500089"
     ],
     "DATABASE": {
         "sqlite": {
